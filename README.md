@@ -2,7 +2,7 @@
 
 Un juego de lógica donde debes conectar los números en orden dentro de una cuadrícula.
 
-##Como jugar
+## Como jugar
 
 - Empieza en el número 1
 - Conecta los números en orden ascendente
@@ -18,7 +18,7 @@ Un juego de lógica donde debes conectar los números en orden dentro de una cua
 - Optimizado para móvil y desktop
 - Juego 100% en HTML, CSS y JavaScript (Canvas)
 
-##Objetivo
+## Objetivo
 
 Entrenar lógica, memoria y planificación mientras completas rutas cada vez más complejas.
 
