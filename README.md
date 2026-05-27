@@ -18,7 +18,7 @@ Un juego de lógica donde debes conectar los números en orden dentro de una cua
 - Dificultad progresiva
 - Controles táctiles y ratón
 - Optimizado para móvil y desktop
-- Juego 100% en HTML, CSS y JavaScript (Canvas)
+- HTML, CSS y JavaScript (Canvas)
 
 ## Objetivo
 
