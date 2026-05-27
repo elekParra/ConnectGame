@@ -1,63 +1,70 @@
-*{
-    box-sizing:border-box;
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-body{
-    background:#eef2f7;
-    font-family:Arial,sans-serif;
-    text-align:center;
-    overflow:hidden;
-    user-select:none;
+
+body {
+    background: #0d0d0d;
+    color: #fff;
+    font-family: system-ui;
+    text-align: center;
 }
-h2{
-    margin:18px 0;
-    font-size:clamp(28px,5vw,52px);
-    font-weight:900;
+
+h2 {
+    margin: 18px 0;
+    font-size: clamp(30px,5vw,52px);
+    font-weight: 900;
 }
-#gameWrap{
-    width:min(94vw,720px);
-    margin:auto;
+
+#hud {
+    width: min(94vw,720px);
+    margin: auto;
+    text-align: left;
+    font-weight: bold;
 }
-canvas{
-    width:100%;
-    aspect-ratio:1;
-    display:block;
-    border-radius:28px;
-    touch-action:none;
-    background:
-    linear-gradient(135deg,#69c4ff,#47a86c);
-    box-shadow:
-    0 15px 35px rgba(0,0,0,.22);
+
+#timerWrap {
+    width: min(94vw,720px);
+    height: 8px;
+    margin: 10px auto;
+    background: #222;
+    border-radius: 6px;
+    overflow: hidden;
 }
-.controls{
-    width:min(94vw,720px);
-    margin:18px auto;
-    display:flex;
-    gap:12px;
-    flex-wrap:wrap;
-    justify-content:center;
+
+#timerBar {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(90deg,#4facfe,#f6d365);
+    transform-origin: left;
 }
-button{
-    border:none;
-    border-radius:18px;
-    padding:14px 22px;
-    cursor:pointer;
-    font-weight:bold;
-    background:#ddd;
-    transition:.15s;
-    min-width:170px;
-    font-size:16px;
+
+#gameWrap {
+    width: min(94vw,720px);
+    margin: auto;
 }
-button:hover{
-    transform:scale(1.03);
-    background:#cfcfcf;
+
+canvas {
+    width: 100%;
+    aspect-ratio: 1;
+    border-radius: 28px;
+    background: #181818;
 }
-@media(max-width:650px){
-    button{
-        width:100%;
-    }
-    h2{
-        font-size:38px;
-    }
+
+.controls {
+    margin: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+button {
+    padding: 14px 20px;
+    border-radius: 18px;
+    border: none;
+    background: #444;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
 }
